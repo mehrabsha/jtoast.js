@@ -19,6 +19,8 @@ Simple and light javascript toast plugin
 | ----------- | --------| --------| --------|
 | toast | `Yes` | `Call this function to display the toast message` | [LINK](#toast) |
 | init | `Optional` | `Call this function to set some settings , like position & fade in(out) duration & ...` | [LINK](#init) | 
+
+
 ```diff
 - Remember that all arguments are lowercase
 ```
