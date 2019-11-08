@@ -61,9 +61,9 @@ toast({
 
 ### sample code
 ```javascript
-toast({ 
-    title : 'Hi' , 
-    description : 'Success message' ,
-    type : 'success' ,
-    timeout : 0
+init({
+    fade_in : 1000 ,
+    fade_out : 1000 ,
+    position : 'top_left'
 });
+```
