@@ -15,7 +15,7 @@ Simple and light javascript toast plugin
 ```
 
 ## Functions
-<br/>
+
 | Function | Required | Description | Parameters |
 | ----------- | --------| --------| --------|
 | toast | `Yes` | `Call this function to display the toast message` | [LINK](#toast) |
