@@ -45,3 +45,21 @@ toast({
     timeout : 0
 });
 ```
+
+
+## init()
+
+| Parameters | Type | Default | Description |
+| ----------- | --------| --------| --------|
+| fade_in | `int (ms)` | `Hi` | `Toast message title` | 
+| fade_in | `int (ms)` | `Toast message` | `Toast message description` |
+| position | `String` <br/> [ `top-left` , `top-center` , `top-right` ,  `bottom-left` , `bottom-center` , `bottom-right`  ] | `0` | `set timeout for message ( 0 and null = Message without time limit)` <br/><br/> **`* in millisecond`** |
+
+### sample code
+```javascript
+toast({ 
+    title : 'Hi' , 
+    description : 'Success message' ,
+    type : 'success' ,
+    timeout : 0
+});
