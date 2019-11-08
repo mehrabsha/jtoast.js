@@ -6,8 +6,8 @@ Simple and light javascript toast plugin
 ## Functions
 | Function | Required | Description | Parameters |
 | ----------- | --------| --------| --------|
-| init | `String` | `Hi` | [LINK](#sample-code) | 
-| toast | `String` | `Toast message` | LINK |
+| toast | `Yes` | `Call this function to display the toast message` | [LINK](#toast) |
+| init | `Optional` | `Call this function to set some settings , like position & fade in(out) time & ...` | [LINK](#init) | 
 
 
 ## toast()
