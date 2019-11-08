@@ -14,14 +14,15 @@ Simple and light javascript toast plugin
 </html>
 ```
 
-
-$[Remember that all arguments are lowercase]
-
 ## Functions
 | Function | Required | Description | Parameters |
 | ----------- | --------| --------| --------|
 | toast | `Yes` | `Call this function to display the toast message` | [LINK](#toast) |
 | init | `Optional` | `Call this function to set some settings , like position & fade in(out) time & ...` | [LINK](#init) | 
+```diff
+- Remember that all arguments are lowercase
+```
+
 
 
 ## toast()
