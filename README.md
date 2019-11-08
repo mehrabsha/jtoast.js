@@ -38,6 +38,7 @@ Simple and light javascript toast plugin
 | type | `String` [ `success` , `error` , `warning` , `custom` ] | `success` | `Set toast message type` |
 | color | `String` | `#fff` | `Set toast message background color` |
 | close_color | `String` | `#999` | `Set toast message close icon color` |
+| FOR custom |
 
 ### sample code
 ```javascript
