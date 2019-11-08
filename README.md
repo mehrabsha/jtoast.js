@@ -38,7 +38,6 @@ Simple and light javascript toast plugin
 | type | `String` [ `success` , `error` , `warning` , `custom` ] | `success` | `Set toast message type` |
 | color | `String` | `#fff` | `Set toast message background color` |
 | close_color | `String` | `#999` | `Set toast message close icon color` |
-| FOR custom |
 
 ### sample code
 ```javascript
@@ -51,6 +50,26 @@ toast({
 ```
 
 
+## toast() &#x1F538; custom type &#x1F538;
+
+| Parameters | Type | Default | Description |
+| ----------- | --------| --------| --------|
+| border_color | `String` | `#43d569` | `Set toast message border color` | 
+| icon | `String` | `none` | `Set toast message icon` |
+| radius | `Int` | `3` | `Set border radius` |
+
+### sample code
+```javascript
+toast({
+    title:'Hi' ,
+    description: 'Custom message' ,
+    timeout : 0 ,
+    type : 'custom' ,
+    close_color: '#3498db' ,
+    border_color: '#3498db' ,
+    icon : 'url(https://img.icons8.com/flat_round/2x/info.png)'
+});
+```
 
 
 
