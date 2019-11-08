@@ -20,6 +20,15 @@ Simple and light javascript toast plugin
 | toast | `Yes` | `Call this function to display the toast message` | [LINK](#toast) |
 | init | `Optional` | `Call this function to set some settings , like position & fade in(out) duration & ...` | [LINK](#init) | 
 
+| Parameters | Type | Default | Description |
+| ----------- | --------| --------| --------|
+| title | `String` | `Hi` | `Toast message title` | 
+| description | `String` | `Toast message` | `Toast message description` |
+| timeout | `Int (ms)` | `0` | `set timeout for message ( 0 and null = Message without time limit)` <br/><br/> **`* in millisecond`** |
+| type | `String` [ `success` , `error` , `warning` , `custom` ] | `success` | `Set toast message type` |
+| color | `String` | `#fff` | `Set toast message background color` |
+| close_color | `String` | `#999` | `Set toast message close icon color` |
+
 <br/>
 ```diff
 - Remember that all arguments are lowercase
