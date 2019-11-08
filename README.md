@@ -15,6 +15,8 @@ Simple and light javascript toast plugin
 ```
 
 
+$[Remember that all arguments are lowercase]
+
 ## Functions
 | Function | Required | Description | Parameters |
 | ----------- | --------| --------| --------|
