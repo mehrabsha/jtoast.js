@@ -2,6 +2,18 @@
 Simple and light javascript toast plugin
 
 ## Usage
+```html
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="toastStyle.css">
+    </head>
+    <body>
+
+        <script src="main.js"></script>
+    </body>
+</html>
+```
+
 
 ## Functions
 | Function | Required | Description | Parameters |
