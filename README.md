@@ -6,7 +6,7 @@ Simple and light javascript toast plugin
 ## Functions
 | Function | Required | Description | Parameters |
 | ----------- | --------| --------| --------|
-| init | `String` | `Hi` | [LINK](https://google.com) | 
+| init | `String` | `Hi` | [LINK](#sample-code) | 
 | toast | `String` | `Toast message` | LINK |
 
 
