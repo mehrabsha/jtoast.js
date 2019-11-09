@@ -83,8 +83,8 @@ toast({
 
 | Parameters | Type | Default | Description |
 | ----------- | --------| --------| --------|
-| fade_in | `int (ms)` | `800` | `Set fade-out duration` <br/><br/> **`* in millisecond`**  | 
-| fade_in | `int (ms)` | `800` | `Set fade-out duration` <br/><br/> **`* in millisecond`** |
+| fade_in | `int (ms)` | `800` | `Set fade in duration` <br/><br/> **`* in millisecond`**  | 
+| fade_out | `int (ms)` | `800` | `Set fade out duration` <br/><br/> **`* in millisecond`** |
 | position | `String` <br/> [ `top-left` , `top-center` , `top-right` ,  `bottom-left` , `bottom-center` , `bottom-right`  ] | `bottom-left` | `Set toast messages position` |
 
 ### sample code
