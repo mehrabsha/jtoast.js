@@ -4,6 +4,7 @@ Simple and lightjavascript toast plugin
 
 ![screenshot](screenshot.jpg)
 
+## [More sample code and demos](https://mehrabsha.github.io/javascript-toast-plugin/Demo/)
 
 ## Usage
 ```html
@@ -94,3 +95,5 @@ init({
     position : 'top_left'
 });
 ```
+
+### [More sample code and demos](https://mehrabsha.github.io/javascript-toast-plugin/Demo/)
