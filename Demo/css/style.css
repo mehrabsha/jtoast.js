@@ -1,0 +1,80 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #3C4556;
+    font-family: 'Roboto';
+    background-size: 1920px;
+    background-position-x: 800px;
+}
+.container{
+    padding: 20px;
+}
+
+.container .show{
+    display: block;
+    background-color: #f4f4f4;
+    color: #2980b9;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;  
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section h2{
+    color: #f4f4f4;
+    text-align: center;
+max-width: 700px;
+}
+.code pre code , .code pre ,.code{
+    max-width: 700px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+section{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#toTop{
+    background: #282a36;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 50px;
+    bottom: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    line-height: 60px;
+    color: #f4f4f4;
+    text-align: center;
+    font-size: 25px;
+    opacity: 0.0;
+    transition: .4s;
+}
+
+.tags{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+.tag{
+    background: #f4f4f4;
+    color: #2c3e50;
+    font-size: 18px;
+    padding: 20px 40px;
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+}

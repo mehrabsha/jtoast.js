@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../toastStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/cf8cec45b2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/dracula.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
+</head>
+
+<body>
+
+
+    <script src="../toast.js"></script>
+    <div class="container">
+
+        <div class="tags">
+            <div class="tag" target="Htu">How to use</div>
+            <div class="tag" target="Sm">Success message</div>
+            <div class="tag" target="Em">Error message</div>
+            <div class="tag" target="Wm">Warning message</div>
+            <div class="tag" target="Mt">Message timeout</div>
+            <div class="tag" target="Ct">Custom toast</div>
+            <div class="tag" target="CtNi">Custom toast (No icons)</div>
+            <div class="tag" target="Ht">Html toast</div>
+            <div class="tag" target="Ds">Dark style toast</div>
+            <div class="tag" target="Cp">Set messages position</div>
+        </div>
+
+        <section id="Htu">
+            <h2>How to use</h2>
+            <div class="code">
+                <pre>
+                        <code  class="html" >
+
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;link rel="stylesheet" type="text/css" href="toastStyle.css"&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+
+        &lt;script src="main.js"&gt;&lt;/script&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+
+
+                        </code>
+                </pre>
+            </div>
+        </section>
+
+        <section id="Sm">
+            <h2>Success Message</h2>
+            <div class="code">
+                <pre>
+                            <code  class="javascript" >
+init({
+    fade_in : 800 ,
+    fade_out : 800 ,
+    position : 'bottom_left'
+});
+                                    
+                                    
+toast({ 
+    title : 'Hi' , 
+    description : 'Success message' ,
+    type : 'success' ,
+    timeout : 0
+})</code>
+                        </pre>
+            </div>
+            <button class="show iT" id="btnSm"> Try it </button>
+        </section>
+
+        <section id="Em">
+            <h2>Error Message</h2>
+            <div class="code">
+                <pre>
+                            <code  class="javascript" >
+init({
+    fade_in : 800 ,
+    fade_out : 800 ,
+    position : 'bottom_left'
+});
+                                    
+                                    
+toast({ 
+    title : 'Hi' , 
+    description : 'Error message' ,
+    type : 'error' ,
+    timeout : 0
+})</code>
+                        </pre>
+            </div>
+            <button class="show iT" id="btnEm"> Try it </button>
+        </section>
+
+        <section id="Wm">
+            <h2>Warning Message</h2>
+            <div class="code">
+                <pre>
+                            <code  class="javascript" >
+init({
+    fade_in : 800 ,
+    fade_out : 800 ,
+    position : 'bottom_left'
+});
+                                    
+                                    
+toast({ 
+    title : 'Hi' , 
+    description : 'Warning message' ,
+    type : 'warning' ,
+    timeout : 0
+})</code>
+                        </pre>
+            </div>
+            <button class="show iT" id="btnWm"> Try it </button>
+        </section>
+
+        <section id="Mt">
+            <h2>Message timeout</h2>
+            <div class="code">
+                <pre>
+                        <code  class="javascript" >
+init({
+fade_in : 800 ,
+fade_out : 800 ,
+position : 'bottom_left'
+});
+                                
+                                
+toast({ 
+title : 'Hi' , 
+description : 'Message with timeout' ,
+type : 'success' ,
+timeout : 1000 //ms , default : 0 , 0 & null = No time limit
+})</code>
+                    </pre>
+            </div>
+            <button class="show iT" id="btnMt"> Try it </button>
+        </section>
+
+        <section id="Ct">
+            <h2>Custom toast</h2>
+            <div class="code">
+                <pre>
+                        <code  class="javascript" >
+init({
+fade_in : 800 ,
+fade_out : 800 ,
+position : 'bottom_left'
+});
+                                
+                                
+toast({ 
+title : 'Hi' , 
+description : 'Custom message' ,
+timeout : 0
+type : 'custom' ,
+close_color: '#3498db' ,
+border_color: '#3498db' ,
+icon : 'url(https://img.icons8.com/flat_round/2x/info.png)'  //null = no icon'}
+})</code>
+                    </pre>
+            </div>
+            <button class="show iT" id="btnCt"> Try it </button>
+        </section>
+
+        <section id="CtNi">
+            <h2>Custom toast (No icons)</h2>
+            <div class="code">
+                <pre>
+                        <code  class="javascript" >
+init({
+fade_in : 800 ,
+fade_out : 800 ,
+position : 'bottom_left'
+});
+                                
+                                
+toast({ 
+title : 'Hi' , 
+description : 'Custom message (whitout icon)' ,
+timeout : 0
+type : 'custom' ,
+close_color: '#3498db' ,
+border_color: '#3498db' ,
+//icon : 'url(https://img.icons8.com/flat_round/2x/info.png)'  //null = no icon'}
+})</code>
+                    </pre>
+            </div>
+            <button class="show iT" id="btnCtNi"> Try it </button>
+        </section>
+
+        <section id="Ht">
+            <h2>Html Message</h2>
+            <div class="code">
+                <pre>
+                            <code  class="javascript" >
+init({
+    fade_in : 800 ,
+    fade_out : 800 ,
+    position : 'bottom_left'
+});
+                                    
+                                    
+toast({ 
+    title : '&lt;span style="color : red"&gt; Hi &lt;/span&gt;' , 
+    description : '&lt;b&gt; HTML &lt;/b&gt; toast message' ,
+    type : 'success' ,
+    timeout : 0
+})</code>
+                        </pre>
+            </div>
+            <button class="show iT" id="btnHt"> Try it </button>
+        </section>
+
+        <section id="Ds">
+            <h2>Dark style</h2>
+            <div class="code">
+                <pre>
+                            <code  class="javascript" >
+init({
+    fade_in : 800 ,
+    fade_out : 800 ,
+    position : 'bottom_left'
+});
+                                    
+                                    
+toast({
+    title:'&lt;span style="color:#f9f9f9"&gt;Hi&lt;/span&gt;' ,
+    description: '&lt;span style="color:#bdc3c7"&gt;Dark style toast message&lt;/span&gt;' ,
+    close_color: '#f1c40f' ,
+    border_color: '#f1c40f' ,
+    color : '#212121' ,
+    type:'custom' 
+})</code>
+                        </pre>
+            </div>
+            <button class="show iT" id="btnDs"> Try it </button>
+        </section>
+
+        
+        <section id="Cp">
+            <h2>Set messages position</h2>
+            <div class="code">
+                <pre>
+                            <code  class="javascript" >
+init({
+    fade_in : 800 ,
+    fade_out : 800 ,
+    position : 'top_center'
+});
+                                    
+                                    
+toast({ 
+    title : 'Hi' , 
+    description : 'Success message' ,
+    type : 'success' ,
+    timeout : 0
+})</code>
+                        </pre>
+            </div>
+            <button class="show iT" id="btnCp"> Try it </button>
+        </section>
+
+
+
+
+        <div id="toTop" onclick="toTop()"><i class="fas fa-sort-up"></i></div>
+    </div>
+
+
+
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
