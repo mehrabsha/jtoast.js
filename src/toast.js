@@ -142,4 +142,13 @@ if (true) {
   if (document.getElementsByClassName("msha_toast_container").length == 0) {
     document.body.insertAdjacentHTML("beforeend", '<div class="msha_toast_container"></div>');
   }
+
+  
+if (!('remove' in Element.prototype)) {
+  Element.prototype.remove = function() {
+      if (this.parentNode) {
+          this.parentNode.removeChild(this);
+      }
+  };
+}
 }
