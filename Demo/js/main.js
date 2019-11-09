@@ -2,7 +2,9 @@ var ppposition = 'bottom-left';
          
 $(document).ready(function () {
 
-
+    toast({
+             title:'Hi' , description: 'Success message' 
+    });
     init({
         fade_in : 800 ,
         fade_out : 800 ,
