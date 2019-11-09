@@ -1,5 +1,7 @@
 
 $(document).ready(function () {
+
+
   init({
     fade_in: 800,
     fade_out: 800,
@@ -85,7 +87,6 @@ $(document).ready(function () {
     pposition();
   });
   $(".tag").click(function (e) {
-    console.log();
     $('html').animate({
       scrollTop: $('#' + $(this).attr('target')).offset().top
     }, 1000);
