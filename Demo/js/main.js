@@ -1,11 +1,9 @@
-"use strict";
 
-var ppposition = 'bottom-left';
 $(document).ready(function () {
   init({
     fade_in: 800,
     fade_out: 800,
-    position: ppposition
+    position: 'bottom-left'
   });
   document.getElementById("btnSm").addEventListener("click", function () {
     toast({
@@ -74,9 +72,8 @@ $(document).ready(function () {
   });
 
   function pposition() {
-    ppposition = 'top-center';
     init({
-      position: ppposition
+      position: 'top-center'
     });
     toast({
       title: 'Hi',
