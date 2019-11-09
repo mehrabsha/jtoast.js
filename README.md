@@ -1,5 +1,5 @@
 # javascript-toast-plugin
-Simple and lightjavascript toast plugin
+Simple and light javascript toast plugin
 
 
 ![screenshot](screenshot.jpg)
