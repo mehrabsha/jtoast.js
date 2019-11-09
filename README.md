@@ -2,7 +2,7 @@
 Simple and lightjavascript toast plugin
 
 
-[screenshot](screenshot.jpg)
+![screenshot](screenshot.jpg)
 
 
 ## Usage
