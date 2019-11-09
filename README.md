@@ -1,5 +1,9 @@
 # javascript-toast-plugin
-Simple and light javascript toast plugin
+Simple and lightjavascript toast plugin
+
+
+
+
 
 ## Usage
 ```html
