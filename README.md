@@ -11,10 +11,10 @@ Simple and light javascript toast plugin
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="toastStyle.min.css">
-        <script src="toast.min.js"></script>
     </head>
     <body>
         
+        <script src="toast.min.js"></script>
     </body>
 </html>
 ```

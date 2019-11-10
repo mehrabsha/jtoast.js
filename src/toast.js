@@ -2,8 +2,9 @@
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
+if (true) {
 
-  var $init = function $init(object) {
+  var init = function init(object) {
     var _ = object;
 
     if (_typeof(object) == 'object') {
@@ -150,4 +151,4 @@ if (!('remove' in Element.prototype)) {
       }
   };
 }
-
+}
