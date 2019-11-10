@@ -1,10 +1,11 @@
 # javascript-toast-plugin
-Simple and light javascript toast plugin
+Simple and light javascript toast message plugin
 
 
 ![screenshot](screenshot.jpg)
 
-## [More sample code and demos](https://mehrabsha.github.io/javascript-toast-plugin/Demo/)
+## DEMO
+[More sample code and demos](https://mehrabsha.github.io/javascript-toast-plugin/Demo/)
 
 ## Usage
 ```html
@@ -23,7 +24,7 @@ Simple and light javascript toast plugin
 
 | Function | Required | Description | Parameters |
 | ----------- | --------| --------| --------|
-| toast | `Yes` | `Call this function to display the toast message` | [LINK](#toast) |
+| toast | `Yes` | `Call this function to display the toast notification` | [LINK](#toast) |
 | init | `Optional` | `Call this function to set some settings , like position & fade in(out) duration & ...` | [LINK](#init) | 
 
 
@@ -37,12 +38,12 @@ Simple and light javascript toast plugin
 
 | Parameters | Type | Default | Description |
 | ----------- | --------| --------| --------|
-| title | `String` | `Hi` | `Toast message title` | 
-| description | `String` | `Toast message` | `Toast message description` |
+| title | `String` | `Hi` | `Toast notification title` | 
+| description | `String` | `Life is short. Live passionately.` | `Toast notification description` |
 | timeout | `Int (ms)` | `0` | `set timeout for message ( 0 and null = Message without time limit)` <br/><br/> **`* in millisecond`** |
-| type | `String` [ `success` , `error` , `warning` , `custom` ] | `success` | `Set toast message type` |
-| color | `String` | `#fff` | `Set toast message background color` |
-| close_color | `String` | `#999` | `Set toast message close icon color` |
+| type | `String` [ `success` , `error` , `warning` , `custom` ] | `success` | `Set notification type` |
+| color | `String` | `#fff` | `Set toast notification background color` |
+| close_color | `String` | `#999` | `Set toast notification close icon color` |
 
 ### sample code
 ```javascript
@@ -59,8 +60,8 @@ toast({
 
 | Parameters | Type | Default | Description |
 | ----------- | --------| --------| --------|
-| border_color | `String` | `#43d569` | `Set toast message border color` | 
-| icon | `String` | `none` | `Set toast message icon` |
+| border_color | `String` | `#43d569` | `Set toast notification border color` | 
+| icon | `String` | `none` | `Set toast notification icon` |
 | radius | `Int` | `3` | `Set border radius` |
 
 ### sample code
@@ -85,7 +86,7 @@ toast({
 | ----------- | --------| --------| --------|
 | fade_in | `int (ms)` | `800` | `Set fade in duration` <br/><br/> **`* in millisecond`**  | 
 | fade_out | `int (ms)` | `800` | `Set fade out duration` <br/><br/> **`* in millisecond`** |
-| position | `String` <br/> [ `top-left` , `top-center` , `top-right` ,  `bottom-left` , `bottom-center` , `bottom-right`  ] | `bottom-left` | `Set toast messages position` |
+| position | `String` <br/> [ `top-left` , `top-center` , `top-right` ,  `bottom-left` , `bottom-center` , `bottom-right`  ] | `bottom-left` | `Set toast notification position` |
 
 ### sample code
 ```javascript

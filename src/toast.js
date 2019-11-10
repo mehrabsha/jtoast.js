@@ -64,7 +64,7 @@ if (true) {
 
   var toast = function toast(object) {
     var toast_timeout = 0;
-    var toast_desc = "Toast message";
+    var toast_desc = "Life is short. Live passionately.";
     var toast_title = "Hi";
     var toast_type = "success";
     var toast_color = "#fff";
