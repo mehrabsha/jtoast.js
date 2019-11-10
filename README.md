@@ -1,19 +1,20 @@
 # javascript-toast-plugin
-Simple and lightjavascript toast plugin
+Simple and light javascript toast plugin
 
 
 ![screenshot](screenshot.jpg)
 
+## [More sample code and demos](https://mehrabsha.github.io/javascript-toast-plugin/Demo/)
 
 ## Usage
 ```html
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="toastStyle.css">
+        <link rel="stylesheet" type="text/css" href="toastStyle.min.css">
+        <script src="toast.min.js"></script>
     </head>
     <body>
-
-        <script src="main.js"></script>
+        
     </body>
 </html>
 ```
@@ -82,8 +83,8 @@ toast({
 
 | Parameters | Type | Default | Description |
 | ----------- | --------| --------| --------|
-| fade_in | `int (ms)` | `800` | `Set fade-out duration` <br/><br/> **`* in millisecond`**  | 
-| fade_in | `int (ms)` | `800` | `Set fade-out duration` <br/><br/> **`* in millisecond`** |
+| fade_in | `int (ms)` | `800` | `Set fade in duration` <br/><br/> **`* in millisecond`**  | 
+| fade_out | `int (ms)` | `800` | `Set fade out duration` <br/><br/> **`* in millisecond`** |
 | position | `String` <br/> [ `top-left` , `top-center` , `top-right` ,  `bottom-left` , `bottom-center` , `bottom-right`  ] | `bottom-left` | `Set toast messages position` |
 
 ### sample code
@@ -94,3 +95,5 @@ init({
     position : 'top_left'
 });
 ```
+
+### [More sample code and demos](https://mehrabsha.github.io/javascript-toast-plugin/Demo/)

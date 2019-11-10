@@ -24,6 +24,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
+    max-width : 80%;
 }
 
 section h2{
