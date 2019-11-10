@@ -59,13 +59,13 @@ $(document).ready(function () {
   document.getElementById("btnHt").addEventListener("click", function () {
     toast({
       title: '<span style="color:red">Hi</span>',
-      description: '<b>HTML</b> toast message'
+      description: '<b>HTML</b> description'
     });
   });
   document.getElementById("btnDs").addEventListener("click", function () {
     toast({
       title: '<span style="color:#f9f9f9">Hi</span>',
-      description: '<span style="color:#bdc3c7">Dark style toast message</span>',
+      description: '<span style="color:#bdc3c7">Dark style toast notification</span>',
       close_color: '#f1c40f',
       border_color: '#f1c40f',
       color: '#212121',
