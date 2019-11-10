@@ -87,3 +87,29 @@ section{
     cursor: pointer;
     border-radius: 10px;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+.gotoGithub{
+    font-size: 48px;
+    position: fixed;
+    top: 23px;
+    left: 23px;
+}
+
+footer{
+    background-color: #212121;
+    height: 50px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    line-height: 52px;
+}
+footer i{
+    color: red;
+}
+footer a{
+    font-weight: bold;
+}
