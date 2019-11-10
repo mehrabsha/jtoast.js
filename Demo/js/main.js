@@ -2,7 +2,7 @@
 $(document).ready(function () {
 
 
-  init({
+  $init({
     fade_in: 800,
     fade_out: 800,
     position: 'bottom-left'
@@ -74,7 +74,7 @@ $(document).ready(function () {
   });
 
   function pposition() {
-    init({
+    $init({
       position: 'top-center'
     });
     toast({
