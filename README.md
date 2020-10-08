@@ -5,7 +5,7 @@ Simple and light javascript toast notification plugin
 ![screenshot](screenshot.jpg)
 
 ## DEMO
-[More sample code and demos](https://mehrabsha.github.io/javascript-toast-plugin/Demo/)
+[More sample code and demos](https://mehrabsha.github.io/jtoast.js/Demo/)
 
 ## Usage
 ```html
@@ -97,4 +97,4 @@ init({
 });
 ```
 
-### [More sample code and demos](https://mehrabsha.github.io/javascript-toast-plugin/Demo/)
+### [More sample code and demos](https://mehrabsha.github.io/jtoast.js/Demo/)
